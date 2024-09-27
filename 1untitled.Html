@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BDR FIRE STORE APPS</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        /* ListView styles */
+        .app-listview {
+            list-style-type: none;
+            padding: 0;
+        }
+        .app-item {
+            background-color: white;
+            margin-bottom: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .app-details {
+            display: flex;
+            align-items: center;
+        }
+        .app-details img {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .app-details div {
+            display: flex;
+            flex-direction: column;
+        }
+        .app-details h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .app-details p {
+            margin: 5px 0;
+            color: #777;
+        }
+        .download-btn {
+            padding: 10px 20px;
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        .download-btn:hover {
+            background-color: #2ecc71;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #34495e;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    BDR FIRE APP STORE - DOWNLOAD YOU FAVORITE APPS
+</header>
+
+<div class="container">
+    <!-- ListView of Apps -->
+    <ul class="app-listview">
+        <!-- App 1 -->
+        <li class="app-item">
+            <div class="app-details">
+                <img src="https://www.dropbox.com/scl/fi/pc7zjmcat3aeoop9s8ija/20221108_142903.png?rlkey=vnpwl5zfrsaxroavjw4rvsoj2&st=tludou36&dl=1" alt="App 1 Icon">
+                <div>
+                    <h3>App One</h3>
+                    <p>App One is the best app for productivity on the go!</p>
+                </div>
+            </div>
+            <a href="https://www.example.com"
+<button class="download-btn">Download</button>
+</a>
+        </li>
+
+        <!-- App 2 -->
+        <li class="app-item">
+            <div class="app-details">
+                <img src="https://via.placeholder.com/60" alt="App 2 Icon">
+                <div>
+                    <h3>App Two</h3>
+                    <p>Keep track of your fitness goals with App Two.</p>
+                </div>
+            </div>
+            <a href="https://www.example.com"
+            <button class="download-btn">Download</button>
+            </a>
+        </li>
+
+        <!-- App 3 -->
+        <li class="app-item">
+            <div class="app-details">
+                <img src="https://via.placeholder.com/60" alt="App 3 Icon">
+                <div>
+                    <h3>App Three</h3>
+                    <p>App Three helps you stay organized and focused.</p>
+                </div>
+            </div>
+            <a href="https://www.example.com"
+            <button class="download-btn">Download</button>
+            </a>
+        </li>
+
+        <!-- App 4 -->
+        <li class="app-item">
+            <div class="app-details">
+                <img src="https://via.placeholder.com/60" alt="App 4 Icon">
+                <div>
+                    <h3>App Four</h3>
+                    <p>Discover new music and playlists with App Four.</p>
+                </div>
+            </div>
+            <a href="https://www.example.com"
+            <button class="download-btn">Download</button>
+            </a>
+        </li>
+
+        <!-- App 5 -->
+        <li class="app-item">
+            <div class="app-details">
+                <img src="https://via.placeholder.com/60" alt="App 5 Icon">
+                <div>
+                    <h3>App Five</h3>
+                    <p>App Five offers you free educational content on demand.</p>
+                </div>
+            </div>
+            <a href="https://www.example.com"
+            <button class="download-btn">Download</button>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<footer>
+    © 2024 BDR FIRE APP STORE | ALL RIGHTS RESERVED .
+</footer>
+
+</body>
+</html>
